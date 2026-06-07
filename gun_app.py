@@ -18,6 +18,11 @@ st.set_page_config(
 
 gun_apply_styles()
 
+query_page = st.query_params.get("gun_page", None)
+
+if query_page:
+    st.session_state.gun_page = query_page
+
 if "gun_page" not in st.session_state:
     st.session_state.gun_page = "home"
 
