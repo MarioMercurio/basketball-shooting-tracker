@@ -92,19 +92,24 @@ def gun_apply_styles():
             margin-bottom: 0.25rem;
         }}
 
+        .stButton {{
+            text-align: center;
+        }}
+
         .stButton > button {{
-            width: 100%;
+            width: 360px;
+            max-width: 92%;
             background-color: {GUN_NAVY};
             color: {GUN_GREY};
             border: 2px solid {GUN_NAVY};
-            border-radius: 10px;
-            padding: 0.95rem 1rem;
-            font-family: 'GunHeader', Arial, sans-serif;
-            font-size: 1.1rem;
-            letter-spacing: 1px;
+            border-radius: 12px;
+            padding: 1.25rem 1rem;
+            font-family: 'GunHeader', Arial, sans-serif !important;
+            font-size: 1.45rem;
+            letter-spacing: 1.5px;
             text-transform: uppercase;
-            margin-top: 0.35rem;
-            margin-bottom: 0.35rem;
+            margin-top: 0.45rem;
+            margin-bottom: 0.45rem;
         }}
 
         .stButton > button:hover {{
@@ -128,7 +133,7 @@ def gun_apply_styles():
         .gun-quote {{
             color: {GUN_GREY};
             text-align: center;
-            font-size: 0.82rem;
+            font-size: 0.95rem;
             line-height: 1.45;
             margin-top: 2.25rem;
         }}
